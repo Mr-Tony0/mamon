@@ -1,0 +1,15 @@
+@mixin button(){
+	background:#5528FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#fff;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+}
+@mixin grid($columns,$rows){
+	display: grid;
+	grid-template-columns:$columns;
+	grid-template-rows:$rows;
+}
